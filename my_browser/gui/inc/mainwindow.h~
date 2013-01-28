@@ -1,0 +1,15 @@
+#ifndef MAINWAINDOW_H
+#define MAINWAINDOW_H
+
+#include <QtGui>
+#include <QResizeEvent>
+#include <ui_mainWin.h>
+
+class MainWindow : public QMainWindow, public Gui, public Ui::MainWindow
+{
+public:
+    MainWindow();
+    ~MainWindow();
+};
+
+#endif // MAINWAINDOW_H
